@@ -1,0 +1,9 @@
+PyPaws Shelter Report - 2026-11-12
+Mochi the cat (age 3) | hunger 40 | happiness 75
+Biscuit the dog (age 5) | hunger 70 | happiness 55
+Pickles the hamster (age 1) | hunger 25 | happiness 60
+Sir Hops-a-Lot the rabbit (age 2) | hunger 55 | happiness 80
+Pixel the parrot (age 12) | hunger 35 | happiness 45
+Noodle the snake (age 4) | hunger 10 | happiness 20
+Waffles the dog (age 8) | hunger 85 | happiness 65
+Toast the cat (age 9) | hunger 15 | happiness 55

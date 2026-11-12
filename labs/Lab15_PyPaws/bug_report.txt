@@ -1,0 +1,36 @@
+STEP 4 - BUG REPORT
+===================
+Student name: Max wiliams
+
+For each bug, write: the function, the line number, what was wrong,
+how you fixed it, and HOW you found it with the debugger
+(which variable did you watch, and what value surprised you?).
+
+
+BUG 1
+  Function: total_treats
+  Line number:  13 
+  What was wrong: The program was replacing the total with each pet's treats instead of adding them together.
+  My fix: Changed total = treats_per_pet[name] to total += treats_per_pet[name].
+  How I found it: The incorrect code made total change from 2 to 5 to 1 to 6 instead of adding up to 14.
+
+
+BUG 2
+  Function: average_age
+  Line number: 21 
+  What was wrong: The loop started at index 1 instead of 0, skipping the first pet's age.
+  My fix: Changed range(1, len(ages)) to range(0, len(ages)).
+  How I found it The first value of i was 1 instead of 0, so the first age (3) was skipped.
+
+
+BUG 3
+  Function: find_oldest
+  Line number: 32
+  What was wrong:The program used < instead of >, so it never found the oldest pet.
+  My fix: Changed if age < oldest_age: to if age > oldest_age:.
+  How I found it:The variable oldest_age stayed at 0 because none of the pets had an age less than 0.
+
+REFLECTION (1-2 sentences)
+  What did the debugger show you that just reading the code did not?
+  What is actually wrong with the code and why is not working and how to actually fix said  broken code.
+  AI Use Note: I used ChatGPT to help me understand the bugs, explain the code corrections, and improve my bug report.
